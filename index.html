@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Sign-in Form</title>
+  </head>
+  <body>
+    <section>
+      <h2>Please sign in</h2>
+      <form>
+        <div>
+          <input
+            type="email"
+            placeholder="Email address"
+            id="email"
+            required
+            minlength="6"
+            maxlength="32"
+            autofocus
+          />
+        </div>
+        <div>
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            required
+            minlength="6"
+            maxlength="32"
+          />
+        </div>
+        <div class="remember-me">
+          <input type="checkbox" name="remember" id="remember-me" Remember me />
+          <label for="remember-me">Remember me</label>
+        </div>
+        <div>
+          <button class="submit" type="submit">Sign in</button>
+        </div>
+        <p>Copyright &copy; 2020</p>
+      </form>
+    </section>
+  </body>
+</html>
